@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface de autenticacao</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    <div class="titulo">
+        <h2>Estilizando Formularios</h2>
+    </div>
+    <div class="formulario">
+        <fieldset>
+            <legend>
+                <h4>Detalhes de contato</h4>
+            </legend>
+            <form>
+                <div>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div>
+                    <label for="url">URL:</label><br>
+                    <input type="text" name="url" id="url">
+                </div><br>
+                <input type="submit" name="enviar">
+
+            </form>
+        </fieldset>
+    </div>
+    <div class="Comentarios">
+        <fieldset>
+            <legend>
+                <h4>Comentários</h4>
+            </legend>
+            <form>
+                <label for="message">Message:</label><br>
+                <textarea type="text" name="message" id="message"></textarea><br>
+                <input type="submit" name="enviar">
+            </form>
+        </fieldset>
+    </div>
+
+    <div class="lembrar">
+        <fieldset>
+            <legend>
+                <h4>Lembrar de mim</h4>
+            </legend>
+            <form>
+                <input class="radio" type="radio" name="escolha" id="escolhaS"><label for="escolhaS">Sim</label>
+                <br>
+                <input class="radio" type="radio" name="escolha" id="escolhaN"><label for="escolhaN">Nao</label>
+                <br><input type="submit" name="enviar">
+            </form>
+    </div>
+    </fieldset>
+    </div>
+
+</body>
+
+</html>

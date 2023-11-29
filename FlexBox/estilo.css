@@ -1,0 +1,11 @@
+#conteudo{
+    background: #dcdcdc;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.item{
+    background: white;
+    border: 1px solid gray;
+}

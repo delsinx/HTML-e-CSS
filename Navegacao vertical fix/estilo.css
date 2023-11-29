@@ -1,0 +1,35 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 200px;
+    height: 40px;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    background: red url(../Barra\ navegacao\ vertical/imagens/menu.png) left;
+    width: 200px;
+    height: 40px;
+    display: block;
+    text-indent: 40px;
+    line-height: 40px;
+
+}
+ul a:hover {
+    background:  url(../Barra\ navegacao\ vertical/imagens/menu.png);
+    background-position: right bottom;
+    display: block;
+    color: white;
+}
+
+#home #menu  .menuHOME a,
+#home #contato .menuCONTATO a,
+#home #sobre .menuSOBRE a,
+#home #imagens .menuIMAGENS a,
+#home #sugestao .menuSUGESTAO a
+{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}

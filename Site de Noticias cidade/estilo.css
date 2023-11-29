@@ -1,0 +1,309 @@
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    width: 1920px;
+    height: 1080px;
+    background-color: white;
+    position: absolute;
+
+
+}
+
+#container {
+    background: url(imagens/fundo.png) left top;
+    width: 100%;
+    height: 21%;
+    margin-left: -10px;
+    margin-top: -20px;
+
+}
+
+.logo {
+    position: absolute;
+    left: 20%;
+    top: 20px;
+
+}
+
+.detalhe {
+    position: absolute;
+    left: 67%;
+}
+
+.menuCabecalho .menu li a {
+    width: 50%;
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    background: #8B0000 url(imagens/divisor.png) repeat-y right;
+    padding: 0 1em;
+    line-height: 1.2em;
+    font-size: 22px;
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    position: block;
+
+
+}
+
+.menuCabecalho .menu li {
+    text-align: left;
+    background-color: #8B0000;
+    float: left;
+    list-style-type: none;
+    padding: auto;
+    margin: auto;
+    position: relative;
+    display: block;
+    left: 18%;
+    top: 120px;
+    height: 50px;
+}
+
+.menuCabecalho .menu li a:hover {
+    color: #B22222;
+
+}
+
+#menuLateral {
+    width: 12%;
+    height: 29.5%;
+    border: 1px solid red;
+    margin-top: 20px;
+    margin-left: 19%;
+    background-size: 35%;
+    padding: 5px 20px 0 20px;
+
+}
+
+#menuLateral ul {
+    list-style-type: none;
+    padding-top: 5px;
+    list-style: none;
+    line-height: 30px;
+    border: 1px solid red;
+}
+
+#menuLateral ul a {
+    text-decoration: none;
+    font-size: 18px;
+    color: grey;
+
+
+
+
+}
+
+#menuLateral .entrevista {
+    color: white;
+    background: blue;
+    text-align: left;
+    width: 80%;
+    height: 25px;
+    margin-top: 30px;
+    margin: 18px;
+    font-size: 22px;
+    border: 1px solid red;
+
+}
+
+#menuLateral ul a:hover {
+    background: url(imagens/marcador.png) no-repeat left;
+    padding: 15px;
+    color: grey;
+
+}
+
+.news {
+    border: 1px solid red;
+    color: black;
+    width: 12.5%;
+    margin-left: 19%;
+    padding: 15px;
+
+
+}
+
+.news h4 {
+    background: blue;
+    text-align: left;
+    width: 85%;
+    height: 25px;
+    margin-top: 30px;
+    margin: 18px;
+    font-size: 22px;
+    color: white;
+
+}
+
+.news form {
+    position: relative;
+    display: block;
+    left: 7%
+}
+
+#cadastrar {
+    width: 40%;
+    height: 40px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    display: block;
+    position: relative;
+
+}
+
+#destaque {
+    border: 1px solid red;
+    width: 15%;
+    height: 320px;
+    display: inline-block;
+    position: relative;
+    left: 680px;
+    bottom: 498px;
+}
+
+#ultimaEntrevista {
+    border: 1px solid red;
+    width: 15%;
+    height: 320px;
+    display: block;
+    position: relative;
+    left: 1000px;
+    bottom: 870px;
+}
+
+.destaqueCabecalho {
+    background: blue;
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+    border: 1px solid red;
+
+}
+
+.ultimaEntrevista {
+    background: blue;
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.novalegislacao {
+    font-size: 14px;
+    position: relative;
+    bottom: 20px;
+    background: red;
+    color: white;
+    width: 120px;
+    left: 10px;
+}
+
+#destaque img {
+    position: relative;
+    left: 20px;
+    width: 250px;
+    bottom: 30px;
+
+}
+
+.texto {
+    display: block;
+    position: relative;
+    bottom: 45px;
+    left: 10px;
+}
+
+.leiamaisdestaque {
+    display: block;
+    position: relative;
+    bottom: 60px;
+    left: 10px;
+    color: red;
+}
+
+.entrevista1 {
+    font-size: 14px;
+    position: relative;
+    bottom: 20px;
+    background: red;
+    color: white;
+    width: 120px;
+    left: 10px;
+    display: inline;
+}
+
+#ultimaEntrevista img {
+    position: relative;
+    left: 20px;
+    width: 250px;
+    bottom: 13px;
+}
+
+.texto2 {
+    display: block;
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+}
+
+.leiamaisentrevista {
+    display: block;
+    position: relative;
+    bottom: 42px;
+    left: 10px;
+    color: red;
+}
+
+#mundo {
+    border: 1px solid red;
+    width: 15%;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    left: 680px;
+    bottom: 850px;
+}
+
+#recentes {
+    border: 1px solid red;
+    width: 15%;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    left: 705px;
+    bottom: 850px;
+
+}
+
+.mundocabecalho {
+    background: blue;
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.recentescabecalho {
+    background: blue;
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.primeira img {
+    width: 120px;
+    
+    
+}
+
+.segunda img {
+    width: 120px;
+}
+
+.terceira img {
+    width: 120px;
+}
+
+.quarta img {
+    width: 120px;
+}

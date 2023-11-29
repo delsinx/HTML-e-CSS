@@ -1,0 +1,39 @@
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+.formulario{
+    margin: 20px;
+
+}
+.Comentarios{
+    margin: 20px;
+
+}
+.lembrar{
+    margin: 20px;
+}
+#message{
+    width: 20em;
+    height: 10em;
+}
+label{
+    font-weight: 400;
+    cursor: pointer;
+    display: inline-block;
+}
+fieldset{
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid red;
+    background: #f8f8f8;
+}
+legend{
+    font-weight: bold;
+}
+input.radio, input.checkbox, input.submit{
+    width: auto;
+}
+.radio{
+    margin-right: 5px;
+}

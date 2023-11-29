@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Celery Smile';
+    src: url('CelerySmile.woff2') format('woff2'),
+        url('CelerySmile.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1{
+    font-size: 6em;
+    font-family: 'Celery Smile';
+}

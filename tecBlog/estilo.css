@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background: gray;
+    background-attachment: fixed;
+}
+
+/*-------------------------------body e configuracao da pagina------------------------*/
+.clear {
+    clear: both;
+}
+
+.backgroundlogo {
+
+    background: orange;
+    width: auto;
+    height: 175px;
+    font-weight: bold;
+    background-attachment: scroll;
+
+}
+
+.logo {
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    color: black;
+    text-align: center;
+    display: inline;
+    width: auto;
+    left: 405px;
+
+}
+
+.logo2 {
+    font-size: 50px;
+    position: static;
+    top: 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: inline;
+    left: 388px;
+    width: auto;
+
+}
+
+.linkscabecalho {
+    font-size: 16px;
+    display: inline;
+    width: auto;
+    position: relative;
+    color: red;
+    text-align: center;
+    top: 60px;
+    left: 600px;
+
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+
+
+}
+
+a:hover,
+a:active {
+    
+    background: white;
+    color: orange;
+}
+
+/*-------------------------------Logo e links cabeçalho-----------------------------*/
+
+.espaco {
+    padding: 15px;
+    margin: 15px;
+    width: 800px;
+    height: 720px;
+    margin-left: 250px;
+    margin-right: auto;
+    background: white;
+}
+
+.titulos {
+    color: orange;
+    text-align: left;
+    font-weight: bold;
+}
+
+.data {
+    color: black;
+}
+
+.alinhamentoImagem {
+    margin: 5px;
+    width: 790px;
+    height: auto;
+
+}
+
+.texto {
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+
+a.leiamais:link,
+a.leiamais:visited {
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    margin: -10px;
+    position: relative;
+    top: 20px;
+}
+
+a.leiamais:hover,
+a.leiamais:active {
+    background: none;
+    border: none;
+
+}
+
+/*------------------------------- Materia do site -----------------------------*/
+.containerRecentes {
+    border: 1px solid none;
+    background: white;
+    width: 280px;
+    height: 210px;
+    display: block;
+    position: relative;
+    left: 1100px;
+    bottom: 765px;
+
+
+}
+
+.tituloRecentes {
+    background: gray;
+    position: relative;
+    padding: 10px;
+    margin: 12px;
+    top: 7px;
+}
+
+a.leiamaisRecentes:link,
+a.leiamaisRecentes:visited {
+    color: orange;
+    background: none;
+    border: none;
+    font-size: 16px;
+    text-align: left;
+    padding: none;
+    margin: -10px;
+}
+
+.conteudoRecentes {
+    padding: 3px;
+    margin: 10px;
+}
+/*--------------------------------Postans recentes--------------------------------------*/
+.categorias{
+    border: 1px solid none;
+    background: white;
+    width: 280px;
+    height: 185px;
+    display: block;
+    position: relative;
+    left: 1100px;
+    bottom: 750px;
+    
+}
+.tituloCategorias{
+    background: grey;
+    position: relative;
+    top: 6px; 
+    padding: 10px;
+    margin: 12px;
+}
+
+a.linksCategorias:link,a.linksCategorias:visited{
+    color: orange;
+    background: none;
+    border: none;
+    font-size: 20px;
+    text-align: left;
+    padding: none;
+    margin: 10px;
+}
+.postagem2{
+    padding: 15px;
+    margin: 15px;
+    width: 800px;
+    height: 720px;
+    margin-left: 250px;
+    margin-right: auto;
+    background: white;
+    display: block;
+    position: relative;
+    bottom: 415px;
+}
+.postagem3{
+    padding: 15px;
+    margin: 15px;
+    width: 800px;
+    height: 720px;
+    margin-left: 250px;
+    margin-right: auto;
+    background: white;
+    display: block;
+    position: relative;
+    bottom: 410px;
+}
+.postagem4{
+    padding: 15px;
+    margin: 15px;
+    width: 800px;
+    height: 720px;
+    margin-left: 250px;
+    margin-right: auto;
+    background: white;
+    display: block;
+    position: relative;
+    bottom: 410px;
+}
+.postagem5{
+    padding: 15px;
+    margin: 15px;
+    width: 800px;
+    height: 720px;
+    margin-left: 250px;
+    margin-right: auto;
+    background: white;
+    display: block;
+    position: relative;
+    bottom: 410px;
+}
+.direitos{
+    background: white;
+    text-align: center;
+    display: block;
+    position: relative;
+    bottom: 380px;
+    font-size: 25px;
+    width: 1500px;
+    left: auto;
+    right: auto;
+    padding: 10px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+

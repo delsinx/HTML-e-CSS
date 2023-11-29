@@ -1,0 +1,40 @@
+ul {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+    background: #159cb0 url(imagens/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+
+ul li {
+
+    float: left;
+}
+ul a{
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    color: #fff;
+    background: url(imagens/divisor.png) repeat-y;
+}
+ul .menuHOME   a{
+    background: none;
+}
+ul a:hover{
+    color:#085662;
+    background: #44cade;
+}
+
+#home #menu .menuHOME,
+#home #contato .contato,
+#home #sobre .sobre,
+#home #imagens .imagens,
+#home #sugestao .sugestao
+{
+    color:#085662;
+    background: #44cade;
+}

@@ -1,0 +1,49 @@
+.background {
+    background-image: url('imagens/fundo.png');
+    background-attachment: fixed;
+    ;
+
+
+}
+
+.menu { width: 66%;
+    border: 38px solid #E9E3CE; 
+    background:60% #E9E3CE;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+
+
+}
+
+.texto {
+    background-color: white;
+    width: 70%;
+    color: black;
+    font-weight: 120;
+    text-decoration: none;
+}
+
+
+
+.titulo{
+    color: gray;
+}
+
+.direitos{
+    width: 70%;
+    color:black;
+    font-weight: 900;
+    text-align: center;
+}
+
+.imagens{
+    border:10px solid gray;
+}
+a{
+    color:#4b566a;
+    text-decoration: none;
+    font-weight: bold;
+
+    padding: 5px;
+}
